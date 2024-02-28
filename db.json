@@ -1,6 +1,4 @@
 {
-  "code": 200,
-  "resultMessage": "success",
   "result": {
     "aastemplate": {
       "assetAdministrationShells": [

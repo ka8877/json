@@ -1,197 +1,195 @@
 {
-  "result": {
-    "aastemplate": {
-      "assetAdministrationShells": [
-        {
-          "idShort": "demo0209",
-          "displayName": [
-            {
-              "language": "en",
-              "text": "pcf"
-            }
-          ],
-          "administration": {
-            "version": "1.0"
-          },
-          "id": "http://demo.com/",
-          "assetInformation": {
-            "assetKind": "Instance",
-            "globalAssetId": "http://demo.com/"
-          },
-          "submodels": [
-            {
-              "type": "ExternalReference",
-              "keys": [
-                {
-                  "type": "Submodel",
-                  "value": "http://demo.com/4/PCF"
-                }
-              ]
-            }
-          ],
-          "modelType": "AssetAdministrationShell"
-        }
-      ],
-      "submodels": [
-        {
-          "idShort": "PCF_ID_108",
-          "displayName": [
-            {
-              "language": "en",
-              "text": "PCF"
-            }
-          ],
-          "id": "http://demo.com/4/PCF",
-          "kind": "Instance",
-          "submodelElements": [
-            {
-              "idShort": "PCFProduction_ID_116",
-              "displayName": [
-                {
-                  "language": "en",
-                  "text": "ProductOperation"
-                }
-              ],
-              "value": [
-                {
-                  "idShort": "PCFProductCode_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFProductCode"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "917-394233-00002",
-                  "modelType": "Property"
-                },
-                {
-                  "idShort": "PCFVendorCode_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFVendorCode"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "V000000001",
-                  "modelType": "Property"
-                },
-                {
-                  "idShort": "PCFConditionOfInterface_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFConditionOfInterface"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "Invoice",
-                  "modelType": "Property"
-                },
-                {
-                  "idShort": "PCFVendorRefNo_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFVendorRefNo"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "INV0000001",
-                  "modelType": "Property"
-                },
-                {
-                  "idShort": "PCFFromDate_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFFromDate"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "20240201",
-                  "modelType": "Property"
-                },
-                {
-                  "idShort": "PCFToDate_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFToDate"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "20240229",
-                  "modelType": "Property"
-                },
-                {
-                  "idShort": "PCFCalcuationMethod_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFCalcuationMethod"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "ISO 14067",
-                  "modelType": "Property"
-                },
-                {
-                  "idShort": "PCFCO2eq_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFCO2eq"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "17.2",
-                  "modelType": "Property"
-                },
-                {
-                  "idShort": "PCFReferenceValueForCalculation_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFReferenceValueForCalculation"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "kg",
-                  "modelType": "Property"
-                },
-                {
-                  "idShort": "PCFQuantityOfMeasureForCalculation_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFQuantityOfMeasureForCalculation"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "5",
-                  "modelType": "Property"
-                },
-                {
-                  "idShort": "PCFLifeCyclePhase_1",
-                  "displayName": [
-                    {
-                      "language": "en",
-                      "text": "PCFLifeCyclePhase"
-                    }
-                  ],
-                  "valueType": "xs:string",
-                  "value": "cradle-to-gate",
-                  "modelType": "Property"
-                }
-              ],
-              "modelType": "SubmodelElementCollection"
-            }
-          ],
-          "modelType": "Submodel"
-        }
-      ]
-    }
+  "aastemplate": {
+    "assetAdministrationShells": [
+      {
+        "idShort": "nuvx0209",
+        "displayName": [
+          {
+            "language": "en",
+            "text": "pcf"
+          }
+        ],
+        "administration": {
+          "version": "1.0"
+        },
+        "id": "http://nuvxcustomer.com/",
+        "assetInformation": {
+          "assetKind": "Instance",
+          "globalAssetId": "http://nuvxcustomer.com/"
+        },
+        "submodels": [
+          {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "Submodel",
+                "value": "http://nuvxcustomer.com/4/PCF"
+              }
+            ]
+          }
+        ],
+        "modelType": "AssetAdministrationShell"
+      }
+    ],
+    "submodels": [
+      {
+        "idShort": "PCF_ID_108",
+        "displayName": [
+          {
+            "language": "en",
+            "text": "PCF"
+          }
+        ],
+        "id": "http://nuvxcustomer.com/4/PCF",
+        "kind": "Instance",
+        "submodelElements": [
+          {
+            "idShort": "PCFProduction_ID_116",
+            "displayName": [
+              {
+                "language": "en",
+                "text": "ProductOperation"
+              }
+            ],
+            "value": [
+              {
+                "idShort": "PCFProductCode_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFProductCode"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "917-394233-00002",
+                "modelType": "Property"
+              },
+              {
+                "idShort": "PCFVendorCode_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFVendorCode"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "V000000001",
+                "modelType": "Property"
+              },
+              {
+                "idShort": "PCFConditionOfInterface_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFConditionOfInterface"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "Invoice",
+                "modelType": "Property"
+              },
+              {
+                "idShort": "PCFVendorRefNo_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFVendorRefNo"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "INV0000001",
+                "modelType": "Property"
+              },
+              {
+                "idShort": "PCFFromDate_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFFromDate"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "20240201",
+                "modelType": "Property"
+              },
+              {
+                "idShort": "PCFToDate_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFToDate"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "20240229",
+                "modelType": "Property"
+              },
+              {
+                "idShort": "PCFCalcuationMethod_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFCalcuationMethod"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "ISO 14067",
+                "modelType": "Property"
+              },
+              {
+                "idShort": "PCFCO2eq_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFCO2eq"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "17.2",
+                "modelType": "Property"
+              },
+              {
+                "idShort": "PCFReferenceValueForCalculation_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFReferenceValueForCalculation"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "kg",
+                "modelType": "Property"
+              },
+              {
+                "idShort": "PCFQuantityOfMeasureForCalculation_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFQuantityOfMeasureForCalculation"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "5",
+                "modelType": "Property"
+              },
+              {
+                "idShort": "PCFLifeCyclePhase_1",
+                "displayName": [
+                  {
+                    "language": "en",
+                    "text": "PCFLifeCyclePhase"
+                  }
+                ],
+                "valueType": "xs:string",
+                "value": "cradle-to-gate",
+                "modelType": "Property"
+              }
+            ],
+            "modelType": "SubmodelElementCollection"
+          }
+        ],
+        "modelType": "Submodel"
+      }
+    ]
   }
 }
